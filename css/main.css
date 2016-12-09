@@ -1,3 +1,15 @@
 h1 {
   margin-bottom: 0;
 }
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.btn-ghost:hover {
+  background-color: #000;
+  color: #fff;
+}
