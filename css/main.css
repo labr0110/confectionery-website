@@ -2,6 +2,25 @@ html {
   bottom: 2em;
 }
 
+header {
+  background-color: pink;
+}
+
+footer {
+  background-color: pink;
+}
+
+main {
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.slogan {
+  color: #fff;
+}
 
 .btn-ghost {
   background-color: #fff;
@@ -25,12 +44,25 @@ input {
   background-position: left;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
 .nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: none;
   position: absolute;
+  right: 0;
+  top: 1.8rem;
+  width: 15em;
   z-index: 1;
 }
 
@@ -40,12 +72,12 @@ input {
 
 .nav a {
   color: #000;
-  text-align: center;
   display: block;
+  padding: .5em .75em;
   background-color: #666;
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 0.75s;
+  transition-duration: .75s;
   transition-timing-function: linear;
 }
 
@@ -69,7 +101,7 @@ input {
   width: 40px;
   position: absolute;
   right: 0;
-  bottom: -1.3rem;
+  bottom: -1.2rem;
   margin: 0 1.3rem 0 0;
 }
 
@@ -95,20 +127,6 @@ input {
   display: block;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-a:hover {
-  background-color: #ccc;
-  border-radius: 8px;
-}
-
-.img-store {
-  width: 100%;
-}
-
 .img {
   width: 100%;
 }
@@ -122,6 +140,7 @@ a:hover {
 
   nav {
     display: inline-block;
+    padding-right: .5rem;
   }
 
   .nav {
@@ -129,7 +148,6 @@ a:hover {
     display: block;
     position: static;
     width: 100%;
-    padding-right: 1.3rem;
   }
 
   .nav li {
@@ -141,6 +159,7 @@ a:hover {
   .nav a {
     background: none;
     transition-property: color;
-    transition-duration: 0.75s;
+    transition-duration: .75s;
     transition-timing-function: linear;
   }
+}
