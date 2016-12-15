@@ -19,13 +19,8 @@ h1 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center;
-  background-color: #999;
   display: none;
   position: absolute;
-  right: 0;
-  top: 100%;
-  width: 15em;
   z-index: 1;
 }
 
@@ -34,10 +29,9 @@ h1 {
 }
 
 .nav a {
-  color: #fff;
-  font-family: "Lato", sans-serif;
+  color: #000;
+  text-align: center;
   display: block;
-  padding: 0.5em 0.75em;
   background-color: #666;
   text-decoration: none;
   transition-property: background-color;
@@ -108,3 +102,35 @@ a:hover {
 .img {
   width: 100%;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+  }
+
+  .nav {
+    text-align: right;
+    display: block;
+    position: static;
+    width: 100%;
+    padding-right: 1.3rem;
+  }
+
+  .nav li {
+    display: inline-block;
+    float: none;
+    width: auto;
+  }
+
+  .nav a {
+    background: none;
+    transition-property: color;
+    transition-duration: 0.75s;
+    transition-timing-function: linear;
+  }
