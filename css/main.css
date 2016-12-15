@@ -15,6 +15,10 @@ html {
   color: #fff;
 }
 
+input {
+  width: 100%;
+}
+
 .i-github {
   background-image: url("../images/logo.svg");
   background-repeat: no-repeat;
