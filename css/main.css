@@ -1,6 +1,7 @@
-h1 {
-  margin-bottom: 0;
+html {
+  bottom: 2em;
 }
+
 
 .btn-ghost {
   background-color: #fff;
@@ -14,6 +15,11 @@ h1 {
   color: #fff;
 }
 
+.i-github {
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
 .nav {
   margin: 0;
