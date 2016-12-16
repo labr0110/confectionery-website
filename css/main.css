@@ -14,9 +14,8 @@ main {
   background-color: #fff;
 }
 
-h1, h2 {
-  color: pink;
-  font-family: "Fredoka One", cursive;
+h1 {
+  color: #fff;
 }
 
 .slogan {
@@ -62,7 +61,7 @@ a:focus {
 
 .skip-links {
   margin: 0;
-  padding: 0;
+  padding:0;
   list-style-type: none;
 }
 
@@ -77,12 +76,8 @@ a:focus {
   top: 0;
 }
 
-label {
-  display: block;
-}
-
-input {
-  width: 100%;
+.banner {
+  background: url("../images/banner.jpg") no-repeat center top / cover
 }
 
 .nav {
@@ -105,7 +100,7 @@ input {
   color: #000;
   display: block;
   padding: .5em .75em;
-  background-color: #666;
+  background-color: pink;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: .75s;
@@ -114,6 +109,7 @@ input {
 
 .nav a:hover {
   background-color: #000;
+  color: #fff;
 }
 
 .nav-check:checked ~ .nav {
@@ -128,7 +124,6 @@ input {
 .nav-label {
   cursor: pointer;
   font-size: 1.25rem;
-  display: inline-block;
   width: 40px;
   position: absolute;
   right: 0;
@@ -170,7 +165,6 @@ input {
   }
 
   nav {
-    display: inline-block;
     padding-right: .5rem;
   }
 
